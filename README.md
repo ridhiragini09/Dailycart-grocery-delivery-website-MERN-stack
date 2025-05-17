@@ -10,19 +10,26 @@ DailyCart Preview
 User registration and authentication (JWT-based)
 Secure login/logout with role-based access
 Profile management and order history
+
+
 🛍️ Shopping Experience
 Product listing, detailed views, and search/filter capabilities
 Add to cart, edit quantity, and remove items
 Checkout process with payment integration (e.g., Stripe/PayPal)
 Order placement with confirmation and tracking
+
+
 🛠️ Admin Panel
 Dashboard for managing orders, products, and users
 Create, update, and delete products
 View and update order status
 Role-based authorization to restrict access
+
+
 📱 Responsive Design
 Fully responsive UI for mobile, tablet, and desktop devices
 Built with modern UI/UX best practices
+
+
 🧰 Tech Stack
-Frontend	Backend	Database	Authentication	Other
-React.js	Node.js	MongoDB	JWT, Bcrypt	Redux, Axios, Express, Mongoose, Stripe
+The application is built with a React.js frontend using Redux for state management and Axios for HTTP requests, a Node.js backend powered by Express, a MongoDB database managed with Mongoose, JWT and Bcrypt for authentication, and Stripe for payment processing.
